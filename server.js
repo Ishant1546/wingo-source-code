@@ -1,6 +1,6 @@
 import express from 'express';
 import configViewEngine from './config/configEngine.js';
-import routes from './routes/web';
+import routes from './routes/web.js';
 import cronJobContronler from './controllers/cronJobContronler.js';
 import socketIoController from './controllers/socketIoController.js';
 require('dotenv').config();
@@ -35,5 +35,6 @@ socketIoController.sendMessageAdmin(io);
 server.listen(port, () => {
     console.log("Connected success port: " + port);
 });
+
 
 
