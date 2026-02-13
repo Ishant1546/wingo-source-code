@@ -9,14 +9,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/biswassabir/wingo-source-code.git"
+    "url": "https://github.com/Ishant1546/wingo-source-code"
   },
-  "keywords": [
-    "wingo",
-    "prediction-game",
-    "nodejs",
-    "express"
-  ],
   "author": "Abir Biswas",
   "license": "ISC",
   "dependencies": {
